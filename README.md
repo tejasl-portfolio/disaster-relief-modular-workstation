@@ -24,6 +24,31 @@ The system is split into four independent modules, each self-contained and field
 | **4. Deployment Mechanism** | Parachute + airbag descent system engineered for a safe touchdown at up to 20 m/s |
 
 ---
+## Individual Contribution
+ 
+This section clarifies individual scope within a 4-person design-a-thon team. Scope covered:
+ 
+| Area | Scope |
+|---|---|
+| 📐 **CAD Modeling** | Complete system CAD across all four modules — power/comms enclosure, medical/survival module, structural frame, and deployment mechanism housing |
+| 💡 **Design Thinking** | Concept ideation and problem framing for the design-a-thon brief, including defining the modular (independently serviceable) architecture |
+| 🏗️ **Structural Analysis (FEA)** | Static structural FEA for worst-case corner-impact load cases (30,000 N design load), computing deformation and Factor of Safety across one-, two-, and four-corner impact scenarios |
+ 
+Descent/impact-velocity CFD and the power/communication electronics were handled by other team members.
+ 
+### Skills Learnt
+ 
+![CAD](https://img.shields.io/badge/-Complex%20Assembly%20CAD-455A64?style=flat&logoColor=white)
+![FEA](https://img.shields.io/badge/-Static%20Structural%20FEA-1565C0?style=flat&logoColor=white)
+![Design Thinking](https://img.shields.io/badge/-Design%20Thinking%20%2F%20Ideation-FF6F00?style=flat&logoColor=white)
+![Cross-Team Coordination](https://img.shields.io/badge/-Cross--Team%20Coordination-6A1B9A?style=flat&logoColor=white)
+ 
+- Modeling a multi-module system as independently serviceable assemblies, rather than one monolithic CAD structure
+- Setting up worst-case structural load cases (single-, double-, and quad-corner impact) and interpreting Factor of Safety against a target design margin
+- Concept-to-brief design thinking under a fixed competition problem statement and timeline
+- Coordinating structural/CAD design decisions against inputs from teammates' descent-CFD and electronics work, so the frame and mounting points stayed consistent with the rest of the system
+
+---
 
 ## Key Features
 
